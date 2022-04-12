@@ -1,10 +1,10 @@
-import { Button } from "ui";
+import { Shell } from 'ui';
 
 export default function Docs() {
   return (
     <div>
       <h1>Docs</h1>
-      <Button />
+      <Shell title="Test Shell" />
     </div>
   );
 }
